@@ -1,0 +1,25 @@
+# Environment variables (NEVER commit secrets!)
+.env
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Build artifacts
+dist/
+build/
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
